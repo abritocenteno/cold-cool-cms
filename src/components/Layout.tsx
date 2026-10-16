@@ -45,6 +45,17 @@ export const Layout: React.FC<LayoutProps> = ({ children, activeTab, setActiveTa
             <LogOut size={20} />
             <span>Logout</span>
           </div>
+          <p className="px-4 pt-2 text-xs text-[var(--text-dim)]">
+            Powered by{' '}
+            <a
+              href="https://prikichilabs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-[var(--color-brand-accent)] transition-colors"
+            >
+              Prikichi Labs
+            </a>
+          </p>
         </div>
       </aside>
 
